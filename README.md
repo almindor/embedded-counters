@@ -1,4 +1,4 @@
-# Embedded Cuonters
+# Embedded Counters
 
 Library that provided `embedded-hal` implementations for benchmarking transfer performance for drivers.
 
