@@ -1,0 +1,21 @@
+[package]
+name = "display-interface-counters"
+description = "Performance counters for display-interface driver testing"
+version = "0.1.0"
+authors = ["Ales Katona <ales@katona.me>"]
+repository = "https://github.com/almindor/display-interface-counters"
+documentation = "https://docs.rs/display-interface-counters"
+keywords = ["graphics", "display", "embedded"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+exclude = [
+	".gitignore",
+]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+display-interface = "0.4"
+embedded-hal = "0.2"
+serde = { version = "1.0", features = ["derive"] }
