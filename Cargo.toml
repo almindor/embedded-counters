@@ -1,10 +1,10 @@
 [package]
 name = "embedded-counters"
 description = "Performance counters for embedded driver benchmarking"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Ales Katona <ales@katona.me>"]
-repository = "https://github.com/almindor/display-interface-counters"
-documentation = "https://docs.rs/display-interface-counters"
+repository = "https://github.com/almindor/embedded-counters"
+documentation = "https://docs.rs/embedded-counters"
 keywords = ["graphics", "display", "embedded", "drivers"]
 readme = "README.md"
 license = "MIT OR Apache-2.0"
